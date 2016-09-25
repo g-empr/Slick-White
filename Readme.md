@@ -1,0 +1,1 @@
+just drop it into the theme folder and enjoy!
