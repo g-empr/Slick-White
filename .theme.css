@@ -1,4 +1,4 @@
-//META{"name":"bluesky","description":"blue","author":"YurgBurg","version":"1.01"}*//
+//META{"name":"bluesky","description":"blue","author":"YurgBurg","version":"1.02"}*//
 .guild-channels {
     background-color: #265fb5;
     padding-bottom: 20px;
@@ -299,4 +299,56 @@
 }
 .guild-header header:hover {
     background-color: #4651d8;
+}
+.guilds-wrapper .guilds-add:hover {
+	  background-color: #265fb5;
+	  border: 1px #fff;
+	  color: #fff;
+}
+.bda-dark #pubs-footer, .bda-dark #pubs-header {
+    background: #ffffff;
+}
+#pubs-header button {
+    height: 32px;
+    background-color: #f9f9f9;
+    color: #000000;
+}
+.bda-dark #pubs-header button {
+    background-color: #ffffff;
+}
+.server-info button {
+    width: 90px;
+    height: 48px;
+    margin-top: 8px;
+    background-color: #738bd7;
+    color: #000;
+    font-size: 19px;
+}
+.bda-dark .server-info button {
+    background-color: #ffffff;
+}
+.bda-dark #pubs-container, .bda-dark .server-row:nth-child(odd) {
+    background-color: #24549c;
+    border-color: #265fb5;
+}
+.bda-dark .server-row {
+    background-color: #265fb5;
+}
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #pubs-container .scroller::-webkit-scrollbar, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track-piece {
+    background-color: #ffffff!important;
+    border-color: #ffffff!important;
+}
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, .bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb {
+    border-color: #dadddf!important;
+    background-color: #dadddf!important;
+}
+#pubs-footer div {
+    float: right;
+    margin-right: 5px;
+    font-weight: 600px;
+    color: #000;
+}
+#pubs-footer a {
+    color: #24549c;
+    font-weight: 800;
 }
