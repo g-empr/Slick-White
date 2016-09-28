@@ -70,10 +70,10 @@
 
 }
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
-    background-color: #f3f3f3;
+    background-color: #dadddf;
 }
 .scroller-wrap .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
-    background-color: #7d4bde;
+    background-color: #dadddf;
     -webkit-background-clip: padding;
     -moz-background-clip: padding;
     background-clip: padding-box;
