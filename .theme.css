@@ -1,4 +1,4 @@
-//META{"name":"bluesky","description":"blue","author":"YurgBurg","version":"1.02"}*//
+//META{"name":"bluesky","description":"blue","author":"YurgBurg","version":"1.03"}*//
 .guild-channels {
     background-color: #265fb5;
     padding-bottom: 20px;
@@ -38,7 +38,7 @@
     border-radius: 4px;
 }
 .private-channels {
-    background-color: #7d4bde;
+    background-color: #613ea6;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -351,4 +351,35 @@
 #pubs-footer a {
     color: #24549c;
     font-weight: 800;
+}
+element.style {
+    border-radius: 25px;
+    background-color: rgb(46, 49, 54);
+
+}
+.popout header {
+    background-color: rgb(38, 95, 181);
+    padding: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    display: -webkit-box;
+    display: box;
+    display: flex;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -o-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    position: relative;
+    -webkit-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
 }
