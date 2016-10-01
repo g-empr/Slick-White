@@ -524,5 +524,5 @@ element.style {
     border-color: rgba(0,0,0,0);
     border-radius: 10px;
     background-color: white;
-    box-shadow: 0 1px 3px rgb(90, 93, 96);
+    box-shadow: 0 1px 3px #dadddf;
 }
