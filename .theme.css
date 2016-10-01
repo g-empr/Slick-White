@@ -1,4 +1,4 @@
-//META{"name":"bluesky","description":"blue","author":"YurgBurg","version":"1.03"}*//
+//META{"name":"bluesky","description":"blue","author":"YurgBurg","version":"1.04"}*//
 .guild-channels {
     background-color: #265fb5;
     padding-bottom: 20px;
@@ -20,7 +20,7 @@
     flex: 1;
 }
 .search-bar {
-    background-color: #622fc3;
+    background-color: #1db38d;
     -webkit-box-shadow: 0 1px 0 0 rgba(0,0,0,.06),inset 0 -1px 0 0 rgba(0,0,0,.2);
     box-shadow: 0 1px 0 0 rgba(0,0,0,.06),inset 0 -1px 0 0 rgba(0,0,0,.2);
     display: -webkit-box;
@@ -38,7 +38,7 @@
     border-radius: 4px;
 }
 .private-channels {
-    background-color: #613ea6;
+    background-color: #1db38d;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -94,7 +94,7 @@
     background-color: #d22a04;
 }
 .private-channels .channel .icon-friends {
-    background: url(/assets/78edad9e528abdda340ef4341ac52b57.svg) center center no-repeat #7d4bde;
+    background: url(/assets/78edad9e528abdda340ef4341ac52b57.svg) center center no-repeat #2ad0a6;
     width: 30px;
     height: 30px;
     -webkit-border-radius: 15px;
@@ -274,7 +274,7 @@
 .search-bar-clear:before {
     width: 19px;
     height: 19px;
-    background: #6447ab;
+    background: #178f70;
     -webkit-border-radius: 10px;
     border-radius: 10px;
     margin: 3px;
@@ -382,4 +382,22 @@ element.style {
     position: relative;
     -webkit-border-radius: 3px 3px 0 0;
     border-radius: 3px 3px 0 0;
+}
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-color: #36393e;
+}
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+    background-color: #ffffff;
+    border-color: #36393e;
+}
+.theme-dark .chat .title-wrap {
+    border-bottom: 1px solid #424549;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.06);
+    box-shadow: 0 1px 0 rgba(0,0,0,.06);
+    background-color: #36393e;
+}
+.scroller-wrap.dark .scroller::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    border-color: transparent;
 }
