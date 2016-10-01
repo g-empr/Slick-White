@@ -82,11 +82,11 @@
     border-radius: 7px;
 }
 #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary {
-    background-color: #7d4bde;
+    background-color: #1db38d;
     color: #fff;
 }
 #friends .friends-header .tab-bar .tab-bar-item.selected {
-    background-color: #7d4bde;
+    background-color: #1db38d;
     color: #fff;
     cursor: default;
 }
@@ -298,7 +298,7 @@
     flex-shrink: 0;
 }
 .guild-header header:hover {
-    background-color: #4651d8;
+    background-color: #1db38d;
 }
 .guilds-wrapper .guilds-add:hover {
 	  background-color: #265fb5;
@@ -332,7 +332,7 @@
     border-color: #265fb5;
 }
 .bda-dark .server-row {
-    background-color: #265fb5;
+    background-color: ##1db38d;
 }
 .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #pubs-container .scroller::-webkit-scrollbar, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track-piece {
     background-color: #ffffff!important;
@@ -400,4 +400,56 @@ element.style {
 .scroller-wrap.dark .scroller::-webkit-scrollbar-thumb {
     background-color: rgb(255, 255, 255);
     border-color: transparent;
+}
+.popout-menu .popout-menu-item:hover.invite {
+    color: #14b11a;
+}
+.popout-menu .popout-menu-item.invite {
+    color: #265fb5;
+}
+.popout-menu .popout-menu-item {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
+    padding: 10px 14px;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #265fb5;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    line-height: 18px;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.popout {
+    padding: 0;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.16);
+    box-shadow: 0 2px 4px rgb(67, 68, 70);
+    position: absolute;
+    z-index: 1000;
+    -webkit-filter: blur(0);
+}
+.private-channels .channel:hover .channel-activity, .private-channels .channel:hover a {
+    color: #1db38d;
+}
+.private-channels .channel:hover {
+    background: -webkit-linear-gradient(left,#000000 85%,#000000);
+    background: -moz-linear-gradient(left,#282b30 85%,#2e3136);
+    background: -o-linear-gradient(left,#282b30 85%,#2e3136);
+    background: -ms-linear-gradient(left,#282b30 85%,#2e3136);
+    background: linear-gradient(to right,#ffffff 85%,#ffffff);
+    color: #000;
 }
