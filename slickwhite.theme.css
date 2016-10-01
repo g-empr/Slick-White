@@ -1,4 +1,4 @@
-//META{"name":"Slick-White","description":"slick-white, give feedback and please enjoy contact me YurgBurg#6184","author":"YurgBurg","version":"1.04"}*//
+//META{"name":"Slick-White","description":"slick-white, give feedback and please enjoy contact me YurgBurg#6184","author":"YurgBurg","version":"1.05"}*//
 .guild-channels {
     background-color: #265fb5;
     padding-bottom: 20px;
@@ -452,4 +452,68 @@ element.style {
     background: -ms-linear-gradient(left,#282b30 85%,#2e3136);
     background: linear-gradient(to right,#ffffff 85%,#ffffff);
     color: #000;
+}
+.private-channels .channel.selected a {
+    color: #1db38d;
+}
+.private-channels .channel:hover {
+    background: -webkit-linear-gradient(left,#000000 85%,#000000);
+    background: -moz-linear-gradient(left,#282b30 85%,#2e3136);
+    background: -o-linear-gradient(left,#282b30 85%,#2e3136);
+    background: -ms-linear-gradient(left,#282b30 85%,#2e3136);
+    background: linear-gradient(to right,#ffffff 85%,#ffffff);
+    color: #000;
+}
+.guilds-wrapper .guilds .guilds .guild-inner element.style {
+    border-radius: 15px;
+    background-color: rgb(29, 179, 141);
+}
+.private-channels .channel.selected .icon-friends {
+    background-color: #1db38d;
+}
+.private-channels .channel.selected {
+    background: -webkit-linear-gradient(left,#282b30 85%,#2e3136);
+    background: -moz-linear-gradient(left,#282b30 85%,#2e3136);
+    background: -o-linear-gradient(left,#282b30 85%,#2e3136);
+    background: -ms-linear-gradient(left,#282b30 85%,#2e3136);
+    background: linear-gradient(to right,#ffffff 85%,#ffffff);
+    color: #fff;
+}
+.tooltip {
+    border-radius: 0;
+    background-color: #1db38d;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+.tooltip.tooltip-right:after {
+    border-right-color: #1db38d;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+.tooltip.tooltip-bottom:after {
+    border-bottom-color: #1db38d;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+.tooltip.tooltip-top:after {
+    border-top-color: #1db38d;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+.tooltip.tooltip-left:after {
+    border-left-color:#1db38d;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+.channel-textarea-inner {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
+    position: relative;
+    padding: 12px 10px;
+    -webkit-border-radius: 3px;
+    border-radius: none;
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #fff;
 }
