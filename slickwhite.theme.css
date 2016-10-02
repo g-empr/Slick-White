@@ -249,7 +249,7 @@
 .settings .settings-header {
     -webkit-border-radius: 5px 0 0 5px;
     border-radius: 5px 0 0 5px;
-    background-color: #6c5ad2;
+    background-color: #1db38d;
     font-family: Whitney,"Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
     color: #fff;
     font-weight: 600;
@@ -518,7 +518,7 @@ element.style {
     background-color: #fff;
 }
 .theme-light .message-group {
-    /* margin-right: 10px; */
+   margin-right: 10px;
     margin-bottom: 5px;
     margin-left: 10px;
     border-color: rgba(0,0,0,0);
