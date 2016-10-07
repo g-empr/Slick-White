@@ -1,4 +1,4 @@
-//META{"name":"Slick-White","description":"slick-white, give feedback and please enjoy contact me YurgBurg#6184","author":"YurgBurg","version":"1.06"}*//
+//META{"name":"Slick-White","description":"slick-white, give feedback and please enjoy contact me YurgBurg#6184","author":"YurgBurg","version":"1.061"}*//
 .guild-channels {
     background-color: #265fb5;
     padding-bottom: 20px;
@@ -201,13 +201,16 @@
     border-right: 1px solid #dadddf;
 }
 .guild-channels .channel-text.selected {
-    background: -webkit-linear-gradient(left,#24549c 85%,#265fb5);
+    background: -webkit-linear-gradient(left,white 85%,white);
     background: -moz-linear-gradient(left,#282b30 85%,#2e3136);
     background: -o-linear-gradient(left,#282b30 85%,#2e3136);
     background: -ms-linear-gradient(left,#282b30 85%,#2e3136);
     background: linear-gradient(to right,#2e3136 85%,2e3136);
     border-bottom: 2px solid #265fb5;
     border-top: 2px solid #265fb5;
+}
+.guild-channels .channel-text.selected a{
+  color: #265fb5;
 }
 .guilds-wrapper .guilds-add {
     width: 100%;
@@ -565,4 +568,13 @@ element.style {
     opacity: 1!important;
     -ms-filter: none!important;
     filter: none!important;
+}
+.guild-channels .channel a:hover {
+    color: black;
+}
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted) a:hover {
+    color: black;
+}
+.guild-channels .channel:hover {
+  background: white;
 }
