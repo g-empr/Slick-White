@@ -1,4 +1,4 @@
-//META{"name":"Slick-White","description":"slick-white, give feedback and please enjoy contact me YurgBurg#6184","author":"YurgBurg","version":"1.063"}*//
+//META{"name":"Slick-White","description":"slick-white, give feedback and please enjoy contact me YurgBurg#6184","author":"YurgBurg","version":"1.064-1"}*//
 .guild-channels {
     background-color: #f3f3f3;
     padding-bottom: 20px;
@@ -613,4 +613,18 @@ element.style {
 }
 .private-channels .channel .channel-name {
   color: #000;
+}
+.guild-channels .channel-voice-states li {
+    padding: 0;
+    font-size: 13px;
+    color: rgba(4, 4, 4, 0.97);
+}
+.account .btn {
+    width: 32px;
+    height: 32px;
+    background: #131212;
+    position: relative;
+}
+.guild-channels .channel a {
+  color: #000000
 }
