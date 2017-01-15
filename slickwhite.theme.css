@@ -1,6 +1,6 @@
 //META{"name":"Slick-White","description":"slick-white, give feedback and please enjoy contact me YurgBurg#6184","author":"YurgBurg","version":"1.063"}*//
 .guild-channels {
-    background-color: #265fb5;
+    background-color: #f3f3f3;
     padding-bottom: 20px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -20,7 +20,7 @@
     flex: 1;
 }
 .search-bar {
-    background-color: #1db38d;
+    background-color: #f3f3f3;
     -webkit-box-shadow: 0 1px 0 0 rgba(0,0,0,.06),inset 0 -1px 0 0 rgba(0,0,0,.2);
     box-shadow: 0 1px 0 0 rgba(0,0,0,.06),inset 0 -1px 0 0 rgba(0,0,0,.2);
     display: -webkit-box;
@@ -38,7 +38,7 @@
     border-radius: 4px;
 }
 .private-channels {
-    background-color: #1db38d;
+    background-color: #f3f3f3;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -82,12 +82,12 @@
     border-radius: 7px;
 }
 #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary {
-    background-color: #1db38d;
-    color: #fff;
+    background-color: #f3f3f3;
+    color: #000;
 }
 #friends .friends-header .tab-bar .tab-bar-item.selected {
-    background-color: #1db38d;
-    color: #fff;
+    background-color: #f3f3f3;
+    color: #00;
     cursor: default;
 }
 .status-offline {
@@ -144,10 +144,10 @@
     border-top: 1px solid #ffffff;
 }
 .guild-header header {
-    background-color: #24549c;
+    background-color: #f3f3f3;
     position: relative;
     font-family: Whitney,"Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-    color: #fff;
+    color: #000;
     font-weight: 600;
     padding: 28px 24px;
     height: 56px;
@@ -206,8 +206,8 @@
     background: -o-linear-gradient(left,#282b30 85%,#2e3136);
     background: -ms-linear-gradient(left,#282b30 85%,#2e3136);
     background: linear-gradient(to right,#2e3136 85%,2e3136);
-    border-bottom: 2px solid #265fb5;
-    border-top: 2px solid #265fb5;
+    border-bottom: 2px solid smokewhite;
+    border-top: 2px solid smokewhite;
 }
 .guild-channels .channel-text.selected a{
   color: #265fb5;
@@ -252,9 +252,9 @@
 .settings .settings-header {
     -webkit-border-radius: 5px 0 0 5px;
     border-radius: 5px 0 0 5px;
-    background-color: #1db38d;
+    background-color: #f3f3f3;
     font-family: Whitney,"Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-    color: #fff;
+    color: #000000;
     font-weight: 600;
     webkit-box-shadow: 0 1px 0 rgba(0,0,0,.05),inset 0 -1px 0 rgba(0,0,0,.1);
     box-shadow: 0 1px 0 rgba(0,0,0,.05),inset 0 -1px 0 rgba(0,0,0,.1);
@@ -271,8 +271,8 @@
 .form .btn-primary {
     -webkit-border-radius: 3px;
     border-radius: 3px;
-    background-color: #1bd38d;
-    color: #fff;
+    background-color: #f3f3f3;
+    color: #000;
 }
 .search-bar-clear:before {
     width: 19px;
@@ -301,12 +301,12 @@
     flex-shrink: 0;
 }
 .guild-header header:hover {
-    background-color: #1db38d;
+    background-color: #000000;
 }
 .guilds-wrapper .guilds-add:hover {
-	  background-color: #265fb5;
+	  background-color: #f3f3f3;
 	  border: 1px #fff;
-	  color: #fff;
+	  color: #000000;
 }
 .bda-dark #pubs-footer, .bda-dark #pubs-header {
     background: #ffffff;
@@ -363,7 +363,7 @@ element.style {
 .popout header {
     background-color: rgb(38, 95, 181);
     padding: 13px;
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
@@ -446,7 +446,7 @@ element.style {
     -webkit-filter: blur(0);
 }
 .private-channels .channel:hover .channel-activity, .private-channels .channel:hover a {
-    color: #1db38d;
+    color: #000000;
 }
 .private-channels .channel:hover {
     background: -webkit-linear-gradient(left,#000000 85%,#000000);
@@ -469,10 +469,10 @@ element.style {
 }
 .guilds-wrapper .guilds .guilds .guild-inner element.style {
     border-radius: 15px;
-    background-color: rgb(29, 179, 141);
+    background-color: #f3f3f3;
 }
 .private-channels .channel.selected .icon-friends {
-    background-color: #1db38d;
+    background-color: #f3f3f3;
 }
 .private-channels .channel.selected {
     background: -webkit-linear-gradient(left,#282b30 85%,#2e3136);
@@ -480,32 +480,32 @@ element.style {
     background: -o-linear-gradient(left,#282b30 85%,#2e3136);
     background: -ms-linear-gradient(left,#282b30 85%,#2e3136);
     background: linear-gradient(to right,#ffffff 85%,#ffffff);
-    color: #fff;
+    color: #000;
 }
 .tooltip
 {
     border-radius: 0;
-    background-color: #1bd38d;
+    background-color: #f3f3f3d;
     box-shadow: 0 1px 3px rgba(0,0,0,.2);
 }
 .tooltip.tooltip-right:after
 {
-    border-right-color: #1bd38d;
+    border-right-color: #f3f3f3;
     box-shadow: 0 1px 3px rgba(0,0,0,.2);
 }
 .tooltip.tooltip-bottom:after
 {
-    border-bottom-color: #1bd38d;
+    border-bottom-color: #f3f3f3;
     box-shadow: 0 1px 3px rgba(0,0,0,.2);
 }
 .tooltip.tooltip-top:after
 {
-    border-top-color: #1bd38d;
+    border-top-color: #f3f3f3;
     box-shadow: 0 1px 3px rgba(0,0,0,.2);
 }
 .tooltip.tooltip-left:after
 {
-    border-left-color: #1bd38d;
+    border-left-color: #f3f3f3;
     box-shadow: 0 1px 3px rgba(0,0,0,.2);
 }
 .channel-textarea-inner {
@@ -542,7 +542,7 @@ element.style {
     background: linear-gradient(to right,#ffffff 85%,#ffffff);
 }
 .form header {
-    color: #1bd38d;
+    color: #f3f3f3;
     font-size: 14px;
     padding-top: 28px;
     padding-bottom: 28px;
@@ -602,5 +602,15 @@ element.style {
     color: #ffffff;
 }
 .guild-channels .channel-voice.audio li {
-    color: #1bd38d;
+    color: #f3f3f3;
+}
+.guild-channels header {
+    font-size: 12px;
+    color: #000;
+}
+.guild-channels .channel-voice .channel-name {
+  color: #000;
+}
+.private-channels .channel .channel-name {
+  color: #000;
 }
