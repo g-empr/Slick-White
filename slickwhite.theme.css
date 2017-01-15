@@ -1,4 +1,4 @@
-//META{"name":"Slick-White","description":"slick-white, give feedback and please enjoy contact me YurgBurg#6184","author":"YurgBurg","version":"1.064.2"}*//
+//META{"name":"Slick-White","description":"slick-white, give feedback and please enjoy contact me YurgBurg#6184","author":"YurgBurg","version":"1.064.3"}*//
 .guild-channels {
     background-color: #f3f3f3;
     padding-bottom: 20px;
@@ -319,13 +319,19 @@
 .bda-dark #pubs-header button {
     background-color: #ffffff;
 }
+#pubs-header {
+  background: rgba(19, 18, 18, 0.18)
+}
 .server-info button {
     width: 90px;
     height: 48px;
     margin-top: 8px;
-    background-color: #738bd7;
+    background-color: #f3f3f3;
     color: #000;
     font-size: 19px;
+}
+.server-info button {
+  background-color: #d4d4d4;
 }
 .bda-dark .server-info button {
     background-color: #ffffff;
@@ -352,8 +358,11 @@
     color: #000;
 }
 #pubs-footer a {
-    color: #24549c;
+    color: #000;
     font-weight: 800;
+}
+#pubs-footer {
+  background: #d4d4d4;
 }
 element.style {
     border-radius: 25px;
@@ -620,7 +629,7 @@ element.style {
     color: #ffffff;
 }
 .guild-channels .channel-voice.audio li {
-    color: #f3f3f3;
+    color: #131212;
 }
 .guild-channels header {
     font-size: 12px;
