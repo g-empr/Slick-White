@@ -1,4 +1,4 @@
-//META{"name":"Slick-White","description":"slick-white, give feedback and please enjoy contact me YurgBurg#6184","author":"YurgBurg","version":"1.064-1"}*//
+//META{"name":"Slick-White","description":"slick-white, give feedback and please enjoy contact me YurgBurg#6184","author":"YurgBurg","version":"1.064.2"}*//
 .guild-channels {
     background-color: #f3f3f3;
     padding-bottom: 20px;
@@ -595,6 +595,24 @@ element.style {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
 }
+.tab-bar.SIDE .tab-bar-item {
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -o-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 6px 10px 20px;
+    color: rgba(14, 1, 1, 0.91);
+}
 .form .btn-primary:hover {
     background-color: #7f7f86;
 }
@@ -627,4 +645,7 @@ element.style {
 }
 .guild-channels .channel a {
   color: #000000
+}
+.tab-bar.SIDE .tab-bar-header {
+  color: rgba(8, 8, 8, 0.54);
 }
